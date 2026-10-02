@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "기존 이슈 보기 / View existing issues"
+    url: "https://github.com/plcmanjp/feedgrove/issues"
+    about: "이미 등록된 의견과 문제를 확인합니다. Check existing feedback and reports."
+  - name: "개인정보 처리방침 / Privacy policy"
+    url: "https://plcmanjp.github.io/feedgrove/privacy/"
+    about: "FeedGrove 개인정보 처리방침을 확인합니다. Read the FeedGrove privacy policy."

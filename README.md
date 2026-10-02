@@ -14,7 +14,9 @@ FeedGrove는 뉴스, 블로그, 관심 있는 웹페이지의 새 글을 한곳�
 
 **[Google Play에서 설치하기](https://play.google.com/store/apps/details?id=com.plcmanjp.feedgrove&hl=ko)**
 
-[앱 소개 웹사이트](https://plcmanjp.github.io/feedgrove/) | [개인정보처리방침](https://plcmanjp.github.io/feedgrove/privacy/)
+[앱 소개 웹사이트](https://plcmanjp.github.io/feedgrove/) | [개인정보처리방침](https://plcmanjp.github.io/feedgrove/privacy/) | [의견 보내기](https://github.com/plcmanjp/feedgrove/issues/new/choose) | [기존 이슈 보기](https://github.com/plcmanjp/feedgrove/issues)
+
+기능 제안이나 버그 제보는 편한 언어로 작성할 수 있습니다. 이슈와 댓글은 공개되며 GitHub 계정과 로그인이 필요합니다. 내용을 확인한 뒤 직접 제출해 주세요. 개인정보, 비밀번호, 토큰, Discord 웹훅 전체 주소, 비공개 피드 주소나 민감정보를 가리지 않은 로그와 스크린샷을 포함하지 마세요. 앱 버전과 Android 버전은 선택 사항이며 제출 전에 수정하거나 지울 수 있습니다.
 
 Android 8.0 이상에서 사용할 수 있습니다.
 
@@ -57,7 +59,9 @@ FeedGrove is an Android feed reader that brings new posts from news sites, blogs
 
 **[Get FeedGrove on Google Play](https://play.google.com/store/apps/details?id=com.plcmanjp.feedgrove&hl=en)**
 
-[Product website (Korean)](https://plcmanjp.github.io/feedgrove/) | [Privacy policy](https://plcmanjp.github.io/feedgrove/privacy/)
+[Product website (Korean)](https://plcmanjp.github.io/feedgrove/) | [Privacy policy](https://plcmanjp.github.io/feedgrove/privacy/) | [Send feedback](https://github.com/plcmanjp/feedgrove/issues/new/choose) | [View existing issues](https://github.com/plcmanjp/feedgrove/issues)
+
+Suggest a feature or report a bug in any language you prefer. Issues and comments are public, and a GitHub account and sign-in are required to submit. Review and submit the form yourself. Do not include personal information, passwords, tokens, full Discord webhook URLs, private feed addresses, or unredacted logs and screenshots. App version and Android version are optional and can be edited or removed before submitting.
 
 Requires Android 8.0 or later.
 

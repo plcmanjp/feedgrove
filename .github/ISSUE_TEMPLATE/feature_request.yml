@@ -1,0 +1,73 @@
+name: "기능 제안 / Feature request"
+description: "FeedGrove 기능을 제안합니다. Suggest a FeedGrove feature in any language."
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이 이슈와 댓글은 공개되며 누구나 읽을 수 있습니다. 제출하려면 GitHub 계정과 로그인이 필요합니다. 내용을 확인한 뒤 직접 제출해 주세요. 편한 언어로 작성할 수 있습니다.
+
+        개인정보, 비밀번호, 토큰, Discord 웹훅 전체 주소, 비공개 피드 주소를 포함하지 마세요. 로그나 스크린샷을 첨부한다면 민감정보를 먼저 가려 주세요. 진단 파일은 자동으로 수집하거나 첨부하지 않습니다.
+
+        This issue and its comments are public and readable by anyone. A GitHub account and sign-in are required to submit. Review and submit the form yourself. Write in any language you prefer.
+
+        Do not include personal information, passwords, tokens, full Discord webhook URLs, or private feed addresses. Redact sensitive information before attaching logs or screenshots. Diagnostic files are not collected or attached automatically.
+  - type: dropdown
+    id: area
+    attributes:
+      label: "관련 기능 / FeedGrove area"
+      options:
+        - "RSS와 Atom / RSS and Atom"
+        - "홈페이지 피드 찾기 / Homepage feed discovery"
+        - "파서 스튜디오 DOM / Parser Studio DOM"
+        - "정규식 파서 / Regex parser"
+        - "카드, 그룹, 검색과 즐겨찾기 / Cards, groups, search and favorites"
+        - "다이제스트 / Digests"
+        - "Discord 전달 / Discord delivery"
+        - "백그라운드 갱신과 오프라인 / Background sync and offline"
+        - "광고 / Ads"
+        - "언어와 접근성 / Languages and accessibility"
+        - "기타 / Other"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "해결하고 싶은 문제 / Problem to solve"
+      description: "사용 중 필요한 상황을 설명해 주세요. Describe the situation you want to improve."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "제안하는 기능 / Proposed feature"
+      description: "원하는 동작과 도움이 되는 이유를 설명해 주세요. Describe the behavior and why it would help."
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: "사용 예시 (선택) / Example use (optional)"
+      description: "기능이 도움이 될 상황을 예로 들어 주세요. Give an example of when the feature would help."
+    validations:
+      required: false
+  - type: input
+    id: app_version
+    attributes:
+      label: "앱 버전 (선택) / App version (optional)"
+      description: "포함 여부를 선택할 수 있으며 제출 전 수정하거나 지울 수 있습니다. Review, edit, or remove before submitting."
+    validations:
+      required: false
+  - type: input
+    id: android_version
+    attributes:
+      label: "Android 버전 (선택) / Android version (optional)"
+      description: "기기 모델이나 식별자는 필요하지 않습니다. Device model and identifiers are not needed."
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_acknowledgement
+    attributes:
+      label: "공개 제출 확인 / Public submission acknowledgement"
+      options:
+        - label: "이 이슈가 공개되며 민감정보를 포함하지 않았음을 확인합니다. I understand this issue is public and have removed sensitive information."
+          required: true
