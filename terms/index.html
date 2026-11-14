@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서비스 이용약관 / Terms of Service: FeedGrove</title>
+<style>
+  :root {
+    --fg: #1c1e21;
+    --muted: #5f6368;
+    --border: #e2e5e9;
+    --accent: #2563eb;
+    --bg-code: #f4f5f7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", Roboto, Arial, sans-serif;
+    color: var(--fg);
+    line-height: 1.7;
+    background: #ffffff;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header {
+    padding: 32px 0 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 8px; }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .lang-nav { margin-top: 16px; font-size: 0.95rem; }
+  .lang-nav a.lang-btn {
+    display: inline-block;
+    padding: 5px 16px;
+    margin-right: 8px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .lang-nav a.lang-btn:hover { border-color: var(--accent); }
+  .lang-nav a.lang-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+  }
+  /* JS 활성 시에만 단일 언어 표시 (미활성 시 양어 병기 폴백) */
+  body.js-lang-ko #en, body.js-lang-ko hr.divider { display: none; }
+  body.js-lang-en #ko, body.js-lang-en hr.divider { display: none; }
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 40px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+  }
+  section.lang-block > h2:first-of-type { border-top: none; margin-top: 8px; }
+  code {
+    font-family: "Consolas", "SFMono-Regular", Menlo, monospace;
+    background: var(--bg-code);
+    border-radius: 4px;
+    font-size: 0.9em;
+    padding: 1px 5px;
+    word-break: break-all;
+  }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .footer-note {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  hr.divider {
+    margin: 48px 0;
+    border: none;
+    border-top: 2px dashed var(--border);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>서비스 이용약관 / Terms of Service</h1>
+  <div class="meta">FeedGrove / 개발자 / Developer: PLCManJP / 시행일 / Effective date: 없음 / None / 최종 갱신 / Last updated: 2026-11-14</div>
+  <div class="lang-nav">
+    <a href="#ko" class="lang-btn" data-lang="ko" aria-pressed="false">한국어</a><a href="#en" class="lang-btn" data-lang="en" aria-pressed="false">English</a>
+  </div>
+</header>
+
+<section class="lang-block" id="ko">
+<p>이 문서는 <a href="https://plcmanjp.github.io/feedgrove/terms/">https://plcmanjp.github.io/feedgrove/terms/</a>에 게시되어 있다. 시행일은 없다. 이 페이지에 시행일이 적히기 전까지 이 문서는 이용자에게 적용되는 약관이 아니다. 적용 법률과 관할은 정하지 않았다. 한국어와 영어를 함께 보여 주며 어느 한쪽도 우선 언어로 정하지 않았다. 최종 갱신일은 이 페이지를 게시한 날짜이며 시행일이 아니다. 개인정보처리방침은 별도 문서이며 이 문서는 그 방침을 대체하지 않는다.</p>
+
+<h2>1. 약관의 지위</h2>
+<p>FeedGrove는 Android 앱이다. 패키지 이름은 <code>com.plcmanjp.feedgrove</code>이고 표시 이름은 FeedGrove다. 개발자 표시 이름은 PLCManJP다.</p>
+<p>이 문서는 위 주소에 게시되어 있다. 시행일이 이 페이지에 적힌 뒤에, 이용자가 앱을 설치하거나 계속 사용하는 시점부터 약관으로 적용될 수 있다. 지금은 시행일이 없으므로 적용되는 약관이 아니다.</p>
+
+<h2>2. 서비스</h2>
+<p>앱은 RSS, Atom, 공개 웹페이지를 이용자 기기에서 읽고 정리한다. 계정 없이 시작할 수 있다. 개발자가 운영하는 계정 서버나 수집 서버는 없다.</p>
+<p>이용자는 카드 또는 컴팩트 목록, 그룹, 검색, 읽지 않음, 즐겨찾기를 사용할 수 있다. 저장되는 내용은 제목, 링크, 제한된 요약과 관련 표시다. 원문 전체를 앱이 보관하지 않으며 원문은 브라우저에서 연다.</p>
+<p>주소에서 RSS와 Atom 후보를 찾을 수 있다. 공식 피드가 없는 공개 페이지는 파서 스튜디오에서 미리본 뒤 이용자가 등록한다. 추천 피드는 언어와 분류로 보여줄 수 있으며 구독은 이용자가 선택한다.</p>
+<p>다이제스트는 이용자가 고른 조건으로 항목을 모은다. 피드별 갱신 주기는 희망 간격이다. Android 전원 관리와 기타 시스템 제약 때문에 실제 시각은 달라질 수 있다. 정확한 분 단위 실행을 보장하지 않는다.</p>
+
+<h2>3. 이용 자격과 아동</h2>
+<p>이용자는 자신에게 적용되는 법령상 앱을 사용할 수 있어야 한다. 앱은 아동을 주 대상으로 하지 않으며 아동에게서 개인정보를 의도적으로 받지 않는다.</p>
+
+<h2>4. 허용되지 않는 이용</h2>
+<p>이용자는 다음을 해서는 안 된다.</p>
+<ul>
+  <li>로그인, CAPTCHA, 유료벽, 접근 제한을 우회하는 용도로 앱을 쓰는 행위. 앱은 그 기능을 제공하지 않는다.</li>
+  <li>공개되지 않은 페이지, 권한이 없는 콘텐츠, 출처의 이용조건을 벗어나는 수집이나 재배포.</li>
+  <li>앱, 출처 서버, Discord, 광고 네트워크에 과도한 요청을 보내거나 보안을 깨뜨리는 행위.</li>
+  <li>웹훅 주소, 토큰, 다른 사람의 계정 정보를 앱 밖에 노출하는 행위.</li>
+</ul>
+<p>각 출처의 이용조건을 확인하고 공개 페이지를 사용해야 한다. robots와 출처가 요청하는 접근 제한을 존중해야 한다.</p>
+
+<h2>5. 제3자 콘텐츠와 권리</h2>
+<p>피드와 웹페이지의 콘텐츠 권리는 해당 권리자에게 있다. RSS나 Atom을 제공한다는 사실만으로 상업적 재사용, 재배포, 2차적 저작물 허락이 생겼다고 보지 않는다.</p>
+<p>앱에 포함된 추천 피드도 같다. 추천 목록에 있다는 것은 해당 출처가 광고 기반 앱에서의 재사용을 허락했다는 뜻이 아니다. 권리 범위가 확인되지 않은 항목은 허락된 것으로 표시하지 않는다. 적합한 출처가 없으면 추천을 비워 둘 수 있다.</p>
+<p>이용자는 자신이 등록한 주소와 전달하는 내용에 대해 필요한 권리를 갖거나 허용된 범위에서만 사용해야 한다. 앱은 이용자에게 제3자 콘텐츠의 저작권을 양도하지 않는다.</p>
+<p>콘텐츠 권리자는 개인정보처리방침의 문의처로 특정 출처에 대한 이의를 알릴 수 있다. 앱 화면의 신고와 차단은 그 기기에만 적용되는 이용자 기능이며 개발자에게 전송되지 않는다.</p>
+
+<h2>6. 기기에 남는 데이터</h2>
+<p>피드 주소, 이름, 그룹, 갱신 설정, 수집 항목의 제목과 링크와 제한된 요약, 읽음과 즐겨찾기, 파서 설정, 다이제스트 규칙, 이용자가 등록한 Discord 웹훅 주소는 기기 안에 저장된다. 웹훅 주소는 기기 키로 암호화하고 화면과 기록에는 가려서 표시한다.</p>
+<p>이용자가 항목이나 피드를 삭제하면 해당하는 로컬 데이터를 지운다. 앱을 삭제하면 기기의 앱 데이터 삭제는 Android 정책을 따른다. 기기 백업에 남은 복사본은 이용자의 기기와 계정 설정에서 관리한다. 이미 Discord로 보낸 메시지는 Discord에서 별도로 삭제해야 한다.</p>
+<p>개인정보 처리의 상세는 개인정보처리방침을 따른다. 이 문서는 새로운 개인정보 수집을 만들지 않는다.</p>
+
+<h2>7. Discord</h2>
+<p>Discord 전달은 선택 기능이다. 이용자가 자신의 웹훅과 규칙을 설정하고 전송을 확인하기 전에는 보내지 않는다. 전송 내용은 이용자가 켠 형식에 따라 제목, 원문 링크, 출처 이름, 그리고 해당 형식이 포함하는 요약이나 시각 등으로 제한된다. Discord는 개발자와 별개의 서비스이며 Discord의 약관과 정책이 그 처리에 적용된다.</p>
+
+<h2>8. 광고와 결제</h2>
+<p>피드, 그룹, 다이제스트, 전달의 기본 기능은 무료이며 인앱결제가 없다. 설치한 버전에 따라 배너 광고가 표시될 수 있다. 선택형 보상 광고로 받은 토큰 하나를 이용자가 확인 후 사용하면 앱 광고를 약 24시간 숨길 수 있다. 광고를 보지 않아도 읽기와 전달 기능을 사용할 수 있다.</p>
+<p>광고와 동의의 실제 요청 여부는 설치한 버전, 동의 상태, 출처 차단과 광고 네트워크 상태에 따른다. 이 페이지는 특정 버전의 광고 요청 건수를 단정하지 않는다. Google 등 광고 파트너의 처리는 개인정보처리방침과 해당 파트너의 정책을 따른다.</p>
+
+<h2>9. 가용성</h2>
+<p>앱과 외부 사이트, Discord, 광고 네트워크는 중단되거나 내용이 바뀔 수 있다. 피드 형식 변경, 출처의 차단, 시스템 제약으로 수집이나 전달이 실패할 수 있다. 실패해도 마지막으로 저장에 성공한 로컬 데이터를 유지하는 것이 앱의 동작이다. 특정 피드의 지속 제공이나 특정 시각의 실행을 보장하지 않는다.</p>
+
+<h2>10. 책임과 소비자 권리</h2>
+<p>앱은 제3자 콘텐츠의 정확성, 적법성, 지속 제공을 보증하지 않는다. 법령이 허용하는 범위에서 개발자의 책임은 이용자가 앱에 대해 직접 지급한 금액이 있는 경우 그 금액을 한도로 한다. 기본 기능에는 이용자 지급 금액이 없다.</p>
+<p>이 제한은 고의 또는 중대한 과실, 그리고 강행 규정에 따른 이용자의 권리에는 적용하지 않는다. 이 문서는 소비자 보호법 등 강행 규정상 권리를 포기하게 하지 않는다. 적용 법률과 관할은 정하지 않았다.</p>
+
+<h2>11. 변경</h2>
+<p>이 문서가 바뀌면 같은 공개 페이지를 갱신한다. 이용자에게 중요한 변경은 앱 업데이트 설명에도 알릴 수 있다. 변경 전에 이미 기기에 저장된 데이터와 이미 보낸 Discord 메시지를 소급해 되돌리지는 않는다.</p>
+
+<h2>12. 문의</h2>
+<p>서비스와 권리 문의는 <a href="https://plcmanjp.github.io/feedgrove/privacy/">개인정보처리방침</a>에 적힌 문의처로 한다. 이 페이지는 그 주소를 반복해 적지 않는다.</p>
+</section>
+
+<hr class="divider">
+
+<section class="lang-block" id="en">
+<p>This document is published at <a href="https://plcmanjp.github.io/feedgrove/terms/">https://plcmanjp.github.io/feedgrove/terms/</a>. It has no effective date. It does not apply as binding terms until this page states an effective date. Governing law and venue are not chosen. Korean and English are both shown, and neither language is designated as controlling. The last-updated date is the date this page was published. It is not an effective date. The privacy policy is a separate document, and this page does not replace it.</p>
+
+<h2>1. Status of these terms</h2>
+<p>FeedGrove is an Android app. Its package name is <code>com.plcmanjp.feedgrove</code>, and its display name is FeedGrove. The developer name shown with the app is PLCManJP.</p>
+<p>These sentences can apply as terms only after this page states an effective date and you install or continue to use the app. They have no effective date, so they are not in force.</p>
+
+<h2>2. The service</h2>
+<p>The app reads and organizes RSS, Atom, and public web pages on your device. You can start without an account. The developer does not operate an account server or a collection server.</p>
+<p>You can use card or compact lists, groups, search, unread filters, and favorites. The app stores titles, links, limited summaries, and related marks. It does not keep the full original article. You open the original page in a browser.</p>
+<p>You can look for RSS and Atom candidates at an address. For a public page without an official feed, Parser Studio shows a preview and you decide whether to register it. Recommended feeds may be grouped by language and category. You choose what to follow.</p>
+<p>Digests collect items using rules you select. A per-feed refresh interval is a preference. Android power management and other system limits can change the actual time. The app does not guarantee minute-level execution.</p>
+
+<h2>3. Eligibility and children</h2>
+<p>You must be allowed to use the app under the laws that apply to you. The app is not directed at children and does not knowingly collect personal information from children.</p>
+
+<h2>4. Use that is not allowed</h2>
+<p>You must not:</p>
+<ul>
+  <li>use the app to bypass login, CAPTCHA, paywalls, or access restrictions (the app does not provide those functions);</li>
+  <li>collect or redistribute unpublished pages, content you are not allowed to use, or content outside a source's terms;</li>
+  <li>send abusive traffic or break the security of the app, a source, Discord, or an ad network;</li>
+  <li>expose webhook addresses, tokens, or another person's account information outside the app.</li>
+</ul>
+<p>Check each source's terms and use public pages. Respect robots rules and access limits requested by the source.</p>
+
+<h2>5. Third-party content and rights</h2>
+<p>Rights in feed and web page content stay with their rightsholders. Offering an RSS or Atom feed does not by itself grant commercial reuse, redistribution, or a derivative-work license.</p>
+<p>The same applies to feeds bundled as recommendations. Presence in the recommendation list does not mean the source has allowed reuse in an ad-supported app. Items whose rights are unresolved are not described as licensed. If no suitable source exists, a recommendation slot may stay empty.</p>
+<p>You must have the rights you need for addresses you register and for content you deliver, or use them only within the allowed scope. The app does not assign third-party copyrights to you.</p>
+<p>A rightsholder can report a specific source through the contact method in the privacy policy. Report and block controls inside the app apply only on that device and are not sent to the developer.</p>
+
+<h2>6. Data kept on the device</h2>
+<p>Feed addresses, names, groups, refresh settings, titles, links, limited summaries, read and favorite marks, parser settings, digest rules, and Discord webhook addresses you register are stored on the device. Webhook addresses are encrypted with a device key and masked on screen and in logs.</p>
+<p>Deleting an item or a feed deletes the corresponding local data. Uninstall behavior follows Android. Copies left in device backup are managed in your device and account settings. Messages already sent to Discord must be deleted in Discord.</p>
+<p>Privacy details are in the privacy policy. These terms do not create a new category of personal data collection.</p>
+
+<h2>7. Discord</h2>
+<p>Discord delivery is optional. The app sends nothing until you configure your own webhook and rules and confirm delivery. Depending on the format you enable, a delivery can include the title, original link, source name, and the summary or time that format uses. Discord is a separate service. Discord's terms and policies apply to that processing.</p>
+
+<h2>8. Ads and payments</h2>
+<p>Feeds, groups, digests, and delivery are free. There are no in-app purchases. The installed version may show banner ads. If you confirm and spend one token earned from an optional rewarded ad, app ads can stay hidden for about 24 hours. You can read and deliver stories without watching ads.</p>
+<p>Whether an ad is actually requested depends on the installed version, consent, source blocking, and the ad network. This page does not state a request count for a specific version. Processing by Google or other ad partners follows the privacy policy and that partner's policies.</p>
+
+<h2>9. Availability</h2>
+<p>The app, external sites, Discord, and ad networks can be interrupted or can change. Collection or delivery can fail because a feed format changes, a source blocks access, or the system limits background work. After a failure the app keeps the last local data that was saved successfully. It does not guarantee that a feed will remain available or that work will run at a specific time.</p>
+
+<h2>10. Liability and consumer rights</h2>
+<p>The app does not warrant the accuracy, lawfulness, or continued availability of third-party content. Where the law allows a limit, the developer's liability is limited to the amount you paid directly for the app, if any. The core features have no charge paid by you.</p>
+<p>That limit does not apply to intentional misconduct, gross negligence, or rights that mandatory law gives you. These terms do not ask you to waive consumer-protection rights. Governing law and venue are not chosen.</p>
+
+<h2>11. Changes</h2>
+<p>Changes to this document are made by updating the same public page. A material change may also be noted in the app update text. A change does not reach back and undo data already stored on the device or messages already sent to Discord.</p>
+
+<h2>12. Contact</h2>
+<p>Questions about the service or about rights go to the contact method listed in the <a href="https://plcmanjp.github.io/feedgrove/privacy/">privacy policy</a>. This page does not repeat that address.</p>
+</section>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var buttons = document.querySelectorAll(".lang-nav a.lang-btn");
+  var STORAGE_KEY = "feedgrove-terms-lang";
+
+  function apply(lang) {
+    document.body.classList.remove("js-lang-ko", "js-lang-en");
+    document.body.classList.add("js-lang-" + lang);
+    document.documentElement.lang = lang;
+    for (var i = 0; i < buttons.length; i++) {
+      var on = buttons[i].getAttribute("data-lang") === lang;
+      buttons[i].classList.toggle("active", on);
+      buttons[i].setAttribute("aria-pressed", on ? "true" : "false");
+    }
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) { /* private mode 등 */ }
+  }
+
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function (e) {
+      e.preventDefault();
+      var lang = this.getAttribute("data-lang");
+      apply(lang);
+      if (history.replaceState) { history.replaceState(null, "", "#" + lang); }
+    });
+  }
+
+  // 초기 언어: URL 해시 > 저장된 선택 > 브라우저 언어(ko 계열=ko, 그 외=en)
+  var initial = null;
+  if (location.hash === "#en") { initial = "en"; }
+  else if (location.hash === "#ko") { initial = "ko"; }
+  if (!initial) {
+    try { initial = localStorage.getItem(STORAGE_KEY); } catch (e) { /* ignore */ }
+  }
+  if (initial !== "ko" && initial !== "en") {
+    initial = /^ko/i.test(navigator.language || "") ? "ko" : "en";
+  }
+  apply(initial);
+})();
+</script>
+</body>
+</html>
