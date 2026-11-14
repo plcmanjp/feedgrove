@@ -32,6 +32,8 @@ Android 8.0 이상에서 사용할 수 있습니다.
 
 ### 앱 화면
 
+피드와 글은 기능 소개를 위해 직접 작성한 가상 예시입니다. 실제 앱 화면을 촬영했으며 외부 기사나 사진은 사용하지 않았습니다.
+
 | 피드 모아 읽기 | 파서 스튜디오 | 다이제스트 |
 |:---:|:---:|:---:|
 | <img src="assets/screen-home-card.png" alt="FeedGrove 카드형 피드 목록" width="220"> | <img src="assets/screen-parser-studio.png" alt="웹페이지 피드 후보를 만드는 파서 스튜디오" width="220"> | <img src="assets/screen-digest.png" alt="규칙 기반 다이제스트 화면" width="220"> |
@@ -77,11 +79,11 @@ Requires Android 8.0 or later.
 
 ### A look inside
 
-Screenshots below show the Korean interface.
+Screenshots show the English interface with original sample feeds and stories written to demonstrate the app.
 
 | Feed cards | Parser Studio | Digests |
 |:---:|:---:|:---:|
-| <img src="assets/screen-home-card.png" alt="FeedGrove feed cards in Korean" width="220"> | <img src="assets/screen-parser-studio.png" alt="Parser Studio feed candidate editor in Korean" width="220"> | <img src="assets/screen-digest.png" alt="Rule-based digest screen in Korean" width="220"> |
+| <img src="assets/screen-home-card-en.png" alt="FeedGrove feed cards in English" width="220"> | <img src="assets/screen-parser-studio-en.png" alt="Parser Studio feed candidate editor in English" width="220"> | <img src="assets/screen-digest-en.png" alt="Rule-based digest screen in English" width="220"> |
 
 ### Get started
 
